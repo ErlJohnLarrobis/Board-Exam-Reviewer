@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Board Exam Reviewer</title>
+        <link rel="icon" href="asset/images/phinma-logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="asset/style-login.css">
+        <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+    <body>
+        <script src="asset/js-login.js"></script>
+        <div class="container">
+            <div class="container-wrapper-hero">
+                <div class="container-image">
+                    <img src="asset/images/phinma-logo.png" alt="phinma logo">
+                </div>
+                <div class="container-title">
+                    <p>Board<br>Exam<br>Reviewer
+                    </p>
+                </div>
+                <div class="container-description">let yourself at ease by reviewing your board exam</div>
+            </div>
+            <div id="to-add" class="container-login">
+                <div id="to-login" class="container-courses">
+                    <p>You want to review for :</p>
+                    <div class="container-select-courses">
+                        <button onclick="nurse()" class="button-courses">Nurses Licensure</button>
+                        <button onclick="crim()" class="button-courses">Criminilogy Licensure</button>
+                        <button onclick="civil()" class="button-courses">Civil Engineering Licensure</button>
+                        <button onclick="archi()" class="button-courses">Architect Licensure Exam</button>
+                    </div>
+                </div>
+                <div id="login" class="container-login-wrapper">
+                    <a href=""><button class="btn-courses"><i class="fa-solid fa-arrow-left"></i></button></a>
+                    <form action="home.html" method="POST">
+                        <h1 id="login-title"></h1>
+                        <div class="container-input"><input type="text" placeholder="Username"><input type="password" placeholder="Password">
+                            <button class="button-courses" type="submit">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

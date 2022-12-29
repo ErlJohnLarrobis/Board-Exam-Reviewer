@@ -1,0 +1,9 @@
+.container-form .questionnaire {
+    border: 1px solid black;
+    width: 60em;
+    margin: 0 auto;
+    padding: 1em;
+}
+.container-form .questionnaire p {
+    margin: 1em 0;
+}
