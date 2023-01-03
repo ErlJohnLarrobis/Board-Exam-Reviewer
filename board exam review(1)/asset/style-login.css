@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+body {
+    background-color: #f8f2ce;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10% 15%;
+}
+.container .container-wrapper-hero {
+    display: grid;
+    grid-template-columns: 156px 250px;
+    padding-top: 103px;
+    padding-left: 6em;
+}
+.container .container-wrapper-hero .container-image {
+    position: relative;
+}
+.container .container-wrapper-hero .container-image img {
+    width: 156px;
+    height: 156px;
+    position: absolute;
+    bottom: 31px;
+}
+.container .container-wrapper-hero .container-title {
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 20px;
+    letter-spacing:2px;
+    position: relative;
+}
+.container .container-wrapper-hero .container-title p {
+    position: absolute;
+    bottom: 0;
+}
+.container .container-wrapper-hero .container-description {
+    grid-column: span 2;
+    letter-spacing: .3em;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.container .container-login .container-courses {
+    background-color: aliceblue;
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+    padding: 20px;
+    margin: auto;
+}
+.container .container-login .container-courses p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+.container .container-login .container-select-courses{
+    display: grid;
+    grid-template-columns: 200px 200px;
+
+}
+.container .container-login .container-select-courses .button-courses {
+    width: 150px;
+    height: 70px;
+    border-radius: 30px;
+    border: none ;
+    background-color: #4caf50;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px auto;
+}
+.container .container-login .container-login-wrapper {
+    background-color: aliceblue;
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+    padding: 20px;
+    margin: auto;
+}
+.container .container-login .container-login-wrapper h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.container .container-login .container-login-wrapper .container-input {
+    display: grid;
+
+}
+.container .container-login .container-login-wrapper .container-input input {
+    height: 40px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.container .container-login .container-login-wrapper .container-input .button-courses {
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    border: none ;
+    background-color: #4caf50;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 40px auto;
+}
+.container-login-wrapper {
+    display: none;
+}
+.btn-courses {
+    border-radius: 30px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 1em;
+    cursor: pointer;
+}
+
+@media (max-width: 1280px){
+    .container .container-wrapper-hero {
+        padding: 0;
+    }
+}
+@media (max-width:1024px){
+    .container {
+        margin: 5em auto;
+    }
+    .container .container-wrapper-hero {
+        display: grid;
+        justify-content: center;
+    }
+}
+@media (max-width:820px){
+    .container {
+        margin-top: 15em;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container .container-wrapper-hero {
+       margin: 0 auto;
+    }
+    .container .container-wrapper-hero .container-title {
+        margin-left:2em;
+    }
+}
+@media (max-width: 425px) {
+    .container .container-wrapper-hero .container-image{
+        margin-left: 1em;
+    }
+    .container .container-login {
+        height: auto;
+        width: auto;
+    }
+    .container .container-login .container-courses {
+        width: 350px;
+        padding: 10px;
+    }
+    .container .container-login .container-select-courses {
+        display: grid;
+        grid-template-columns: 200px;
+        justify-content: center;
+    }
+    .container .container-login .container-login-wrapper {
+        width: 350px;
+        height: auto;
+    }
+}
