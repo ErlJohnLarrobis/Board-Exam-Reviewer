@@ -1,0 +1,28 @@
+.container .content-mock {
+    margin-left: 250px;
+    padding-top: 59px;
+    padding-bottom: 3em;
+    transition: all 1s ease;
+}
+.container .content-mock .intro {
+    margin: 15em 0;
+    text-align: center;
+    line-height: 2;
+}
+.container .content-mock .intro p {
+    font-size: 1.5em;
+}
+.container .content-mock .intro button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.container .content-mock .intro button:hover {
+    background-color: #45a049;
+}
+@media (max-width: 425px){
+
+}
