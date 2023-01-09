@@ -1,0 +1,33 @@
+.container-form .questionnaire {
+    border: 1px solid black;
+    width: 60em;
+    margin: 2em auto auto;
+    padding: 1em;
+}
+.container-form .questionnaire .submit {
+    text-align: center;
+    margin-top: 1em;
+}
+.container-form .questionnaire input[type=submit]{
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.container-form .questionnaire p {
+    margin: 1em 0;
+}
+@media (max-width:425px){
+    .container-form .questionnaire {
+        border: 1px solid black;
+        width: 414px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 1em;
+    }
+    .container-form .questionnaire input {
+        margin-right: .5em;
+    }
+}

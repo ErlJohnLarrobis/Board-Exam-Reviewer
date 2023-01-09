@@ -1,0 +1,20 @@
+.container-reviewer1{
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 2em;
+    margin: 1em auto;
+    width: 60em;
+}
+.container-reviewer1 p {
+    margin: 0 0 2em 0;
+}
+.container-reviewer1 h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+@media (max-width:425px){
+    .container-reviewer1 {
+        width: 414px;
+        box-sizing: border-box;
+    }
+}

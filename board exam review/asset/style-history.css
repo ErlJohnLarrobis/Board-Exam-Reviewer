@@ -1,0 +1,36 @@
+.container .content-history {
+    margin-left: 250px;
+    padding-top: 59px;
+    padding-bottom: 3em;
+    transition: all 1s ease;
+}
+.container .content-history .history-table h1 {
+    text-align: center;
+    margin: 1em 0;
+}
+.container .content-history .history-table table{
+    margin: 0 auto;
+    width: 50em;
+}
+.container .content-history table th{
+    background-color: #414f2b;
+    color: white;
+}
+.container > .content-history .history-table table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1em;
+}
+.container.collapse .content-history {
+    margin-left: 0;
+}
+@media (max-width:425px){
+    .container .content-history {
+        margin-left: 0;
+        padding-top: 59px;
+        padding-bottom: 3em;
+    }
+    .container .content-history .history-table table {
+        width: 414px;
+    }
+}
